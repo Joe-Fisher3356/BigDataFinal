@@ -1,0 +1,59 @@
+# --- Jupyter Notebook Specifics ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# If you use IPython profile
+.ipython/
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Distribution / Packaging ---
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data and Models (Large Files) ---
+# It is best practice to keep data out of Git
+data/
+*.csv
+*.jsonl
+*.h5
+*.pkl
+*.npy
+*.pth
+*.onnx
+
+# --- Environment Variables / Secrets ---
+.env
+.venv
+.secret
+.secrets
+credentials.json
+
+# --- IDE and System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
