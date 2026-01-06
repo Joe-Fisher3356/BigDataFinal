@@ -18,7 +18,7 @@ This project utilizes a Selenium-based crawler to extract job postings and store
 The system supports both local and cloud-based database deployments.
 
 * **Local Deployment:** You can run this on your local MongoDB instance.
-* **Atlas Configuration:** The default configuration is set to MongoDB Atlas for developer use. 
+* **Atlas Configuration:** This configuration is set to connect with remote MongoDB Atlas. 
 
 ---
 
@@ -60,9 +60,8 @@ Successfully processed 123 jobs and saved to 'jobs_processed'.
 
 
 ### **4.2 Data Schema (Parsed Output)**
-
+** Add must-have skill set from job detail page**
 **Extract raw HTML and parse them into the following structure:**
-
 
 
 ```json
@@ -84,7 +83,10 @@ Successfully processed 123 jobs and saved to 'jobs_processed'.
 "processed_at": "timestamp", // Time of data extraction
 
 "query_term": "string" // Search keyword (e.g., "business analyst")
+  
+"must_have_skills": "Array"  //must-have skill set
 
 }
 ```
+
 

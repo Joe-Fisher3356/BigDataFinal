@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72062959-3f17-4964-978f-934dca530168" name="Changes" comment="add Atlas Mongodb configuration">
+    <list default="true" id="72062959-3f17-4964-978f-934dca530168" name="Changes" comment="test both local db and remote atlas mongodb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
@@ -18,10 +18,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Joe-Fisher3356&quot;
-  }
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOQ0A_m867mH71&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1767644748372
+    }
+  ]
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -89,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767626504467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test both local db and remote atlas mongodb">
+      <option name="closed" value="true" />
+      <created>1767627645923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767627645923</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,14 +123,15 @@
     <MESSAGE value="init" />
     <MESSAGE value="complete fetch data and basic data parsing process" />
     <MESSAGE value="add Atlas Mongodb configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Atlas Mongodb configuration" />
+    <MESSAGE value="test both local db and remote atlas mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="test both local db and remote atlas mongodb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/main.ipynb</url>
-          <line>179</line>
+          <line>191</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
