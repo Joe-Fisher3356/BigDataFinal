@@ -85,4 +85,12 @@ We  will use wordCloud to generate the most frequent skill name.
 
 ---
 
+## 5. Random forest
+
+* **We use random forest to get MAE/R².**
+* **Analysis of job by salary and job level.**
+
+
+---
+
 
