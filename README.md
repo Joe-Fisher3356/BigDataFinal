@@ -66,7 +66,17 @@ The system supports both local and cloud-based database deployments.
 * **Atlas Configuration:** This configuration is set to connect with remote MongoDB Atlas. 
 
 ---
-## 2. Word Cloud 
+## 3. Combine job data from 2 platform and train with K-Means cluster model
+* **3.1** Load Jobs from Both Sources into DataFrame
+* **3.2** Skill Frequency Analysis with MongoDB Aggregation
+* **3.3** TF-IDF Vectorization of Skills
+* **3.4** Determine Optimal Number of Clusters
+* **3.5**  Apply K-Means Clustering and Analyze Skill Groups
+* **3.6** Salary Analysis by Cluster
+* **3.7** Skill Gap and Demand Analysis
+---
+
+## 4. Word Cloud 
 
 We  will use wordCloud to generate the most frequent skill name.
 
@@ -74,9 +84,5 @@ We  will use wordCloud to generate the most frequent skill name.
 * **NoFluffJobs** 
 
 ---
-
-
-
-
 
 
