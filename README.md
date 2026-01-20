@@ -2,9 +2,20 @@
 
 This project utilizes a Selenium-based crawler to extract job postings and store them in a MongoDB database.
 
+
+
+## 0. Project Structure
+* **0. Import dependency:** Cell 1
+* **1. WebScrapingNoFluff:** Cell 2 3 4 5
+* **2. WebScrapingJustJoin:** Cell 6 7
+* **3. JobClusterManager:** Cell 8 9 10 11 12 13 14 15
+* **4. JobDataCloudImageGenerator:** Cell 16
+* **5. SalaryModelManager:** Cell 17
+
+
 ---
 
-## 0. Describe two WebScrappers:
+## 1. Describe two WebScrappers and DB collection structure:
 **About 2 WebScrappers:** 
  * 1.WebScrapingNoFluff, fetch data and parse through HTML pages,
     fetch raw data -> parse to separated jobs -> add skill list into each job
@@ -45,19 +56,6 @@ This project utilizes a Selenium-based crawler to extract job postings and store
 
 
 
-
-
-
-## 1. Critical Operational Steps ⚠️
-
-**When running the code, manual intervention is required for the following browser pop-ups:**
-
-* **Privacy Popup:** You MUST either **Accept** or **Cancel** the privacy consent window.
-* **Login Window:** You MUST **Cancel** the login prompt (typically by clicking anywhere outside the window or clicking the close button).
-
-* **You need to restart the kernel to clear the environment variables, to test on remote db and local db**
----
-
 ## 2. MongoDB Configuration
 
 The system supports both local and cloud-based database deployments.
@@ -89,8 +87,6 @@ We  will use wordCloud to generate the most frequent skill name.
 
 * **We use random forest to get MAE/R².**
 * **Analysis of job by salary and job level.**
-
-
 ---
 
 
